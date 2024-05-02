@@ -1,0 +1,38 @@
+a {
+	text-decoration: none;
+}
+td {
+	padding: 5px;
+}
+input {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: cursive;
+}
+
+input:focus {
+	border: solid 2px yellow;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5%;
+	border: solid 4px green;
+	border-radius: 5px;
+	font-size: 28px;
+	font-family: cursive;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #52b63b;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #75d36a;
+}
+
+table {
+	background-color: #c4b775;
+}
